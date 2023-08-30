@@ -1,0 +1,49 @@
+div {
+    font-size: 22px;
+}
+
+button {
+    font-size: 20px;
+}
+
+/* center the h1 */
+h1 {
+    scale: 3;
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#game {
+    scale: 1.5;
+    padding: 10px;
+    width: fit-content;
+    height: 300px;
+    border: 3px solid black;
+    margin: 200px auto;
+    position: relative;
+}
+
+/* space elements out evenly */
+span {
+    display: inline-block;
+    width: auth;
+    text-align: center;
+    margin: 0 5px;
+    line-height: 50px;
+}
+
+#controls {
+    width = #game.width - 20px;
+    text-align: center;
+}   
+
+#text {
+    font-size: 18px;
+    margin: 10px;
+    width: #game.width - 20px;
+    height: 30px;
+    text-align: center;
+    border: 3px solid black;
+    padding: 90px 15px;
+}
